@@ -67,12 +67,16 @@ $( document ).ready( function(){
 					calendarthere = true;
 			}
 			//Load additional plugins. Specify location by pusing to var template.
-			var $template = template;
-			window.extthis = $(this)
-			$(template).each(function(index, element){
-			        $.getScript(element);
-			        console.log("Got "+element);
-			});
+			/*window.extthis = $(this)
+			var $template = "";
+			if(template)
+			{
+			        var $template = template;
+			        $(template).each(function(index, element){
+			                $.getScript(element);
+			                console.log("Got "+element);
+			        });
+		        }*/
                         htmlstring+="</div>";
                 });
 		$("#main-body").append(htmlstring);
