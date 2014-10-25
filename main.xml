@@ -11,7 +11,7 @@
 	</section>
 	<section>
 	        <title>News</title>
-	        <content>Nothing here yet...more information coming soon!</content>
-	        <feed>feed.xml</feed>
+	        <content>The Latest from IMSA Undefined.</content>
+	        <feed>https://imsaundefined.blogspot.com</feed>
         </section>
 </body>

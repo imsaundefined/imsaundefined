@@ -1,8 +1,6 @@
 $( document ).ready( function(){
-	var colortabs = ["0066ff", "ff2ad4", "00d455", "ff2a2a"];
 	var htmlstring = "";
 	var id=0;
-	$("#main-menu").load("/thebakery/meta/main-menu.html");
 	
 	//Build page from xml data
 	//Load the xml file using ajax 
