@@ -12,7 +12,7 @@ $( document ).ready( function(){
                 $("h1, h2").css({"font-family":"\"Avenir Black\", sans-serif"});
         }
 	
-	$("#main-menu").load("/imsa-undefined/clubhub/meta/main-menu.html", function(data){
+	$("#main-menu").load("/clubhub/meta/main-menu.html", function(data){
 	        $(".menu").find("li").each(function(index){
 	                console.log(this.innerText);      
                         $(this).css("background-color", "#"+colortabs[index%4]);
@@ -95,7 +95,7 @@ $( document ).ready( function(){
 		});
         }, "xml");
 		
-	$(".footer").append("<footer><p><a href=\"/imsa-undefined\"><img class=\"footer-logo\" src=\"/imsa-undefined/media/IMSA_Undefined_Logo_White.png\" alt=\"IMSA Undefined\"></a>&nbsp;&nbsp;&nbsp;Copyright &copy; IMSA Undefined 2014</p></footer>");
+	$(".footer").append("<footer><p><a href=\"/\"><img class=\"footer-logo\" src=\"/media/IMSA_Undefined_Logo_White.png\" alt=\"IMSA Undefined\"></a>&nbsp;&nbsp;&nbsp;Copyright &copy; IMSA Undefined 2014</p></footer>");
 });
 
 function getPreferredCalendars(form)

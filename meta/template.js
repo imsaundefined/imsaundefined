@@ -1,7 +1,7 @@
 $( document ).ready( function(){
 	var colortabs = ["0066ff", "ff2ad4", "00d455", "ff2a2a"];
 	var htmlstring = "";
-	$("#main-menu").load("meta/main-menu.html");
+	$("#main-menu").load("/meta/main-menu.html");
 	
 	//Build page from xml data
 	//Load the xml file using ajax 
@@ -65,6 +65,6 @@ $( document ).ready( function(){
 		$("#main-body").append(htmlstring);
         }, "xml");
 	
-	$(".footer").html("<footer><p><a href=\"/imsa-undefined\"><img class=\"footer-logo\" src=\"/imsa-undefined/media/IMSA_Undefined_Logo_White.png\" alt=\"IMSA Undefined\"></a>&nbsp;&nbsp;&nbsp;Copyright &copy; IMSA Undefined 2014</p></footer>");
+	$(".footer").html("<footer><p><a href=\"/\"><img class=\"footer-logo\" src=\"/media/IMSA_Undefined_Logo_White.png\" alt=\"IMSA Undefined\"></a>&nbsp;&nbsp;&nbsp;Copyright &copy; IMSA Undefined 2014</p></footer>");
 });
 
